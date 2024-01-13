@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
 
 const Navbar = () => {
+  const { user, loading } = useAuth();
+
   const navItems = (
     <>
       <li>
@@ -29,6 +32,7 @@ const Navbar = () => {
   );
   return (
     <div className=" bg-green-800 text-white">
+      {loading && <span>Loading......</span>}
       <div className="navbar max-w-screen-xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -102,23 +106,28 @@ const Navbar = () => {
                   />
                 </div>
               </div>
-              <ul
+              <div
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-green-600 rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-green-600 rounded-box w-52 "
               >
-                <li>
-                  <a className="justify-between">
-                    Profile
-                    <span className="badge">New</span>
-                  </a>
-                </li>
-                <li>
-                  <a>Settings</a>
-                </li>
-                <li>
-                  <a>Logout</a>
-                </li>
-              </ul>
+                {user ? (
+                  <>
+                    {user?.photoURL === "" || (
+                      <img
+                        className="w-12 rounded-full mx-auto"
+                        alt="Tailwind CSS Navbar component"
+                        src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                      />
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <img src={user?.photoURL} alt="" />
+                  </>
+                )}
+
+                <p className="text-center">{user?.email}</p>
+              </div>
             </div>
           </div>
         </div>
