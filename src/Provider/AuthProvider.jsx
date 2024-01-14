@@ -27,7 +27,6 @@ const AuthProvider = ({ children }) => {
   };
 
   const updateUser = (name, photo) => {
-    setLoading(true);
     return updateProfile(auth.currentUser, {
       displayName: name,
       photoURL: photo,
@@ -36,8 +35,16 @@ const AuthProvider = ({ children }) => {
 
   const logOut = () => {
     setLoading(true);
-    return signOut();
+    return signOut(auth);
   };
+
+  useEffect(() => {
+    const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+      setLoading(false);
+    });
+    return () => unSubscribe();
+  }, []);
 
   const authInfo = {
     user,
@@ -47,14 +54,6 @@ const AuthProvider = ({ children }) => {
     logOut,
     loading,
   };
-
-  useEffect(() => {
-    const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser);
-    });
-    setLoading(false);
-    return () => unSubscribe();
-  }, []);
 
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>

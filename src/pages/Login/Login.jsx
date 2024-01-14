@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SocialLogin from "../../components/SocialLogin/SocialLogin";
 import { useForm } from "react-hook-form";
 import {
@@ -10,8 +10,11 @@ import { useEffect, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 
 const Login = () => {
-  const { signIn, user } = useAuth();
-  console.log(user?.email);
+  const { signIn } = useAuth();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const from = location.state?.from?.pathname || "/";
 
   //TODO: useState should be true.
   const [disabled, setDisabled] = useState(false);
@@ -38,6 +41,7 @@ const Login = () => {
       .then((result) => {
         const loggedInUser = result.user;
         console.log(loggedInUser);
+        navigate(from, { replace: true });
       })
       .catch((error) => console.log(error));
   };
