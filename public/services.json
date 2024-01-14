@@ -1,0 +1,449 @@
+{
+    "Saturday": [
+        {
+            "serviceName": "Teeth Cleaning",
+            "image": "teeth_cleaning_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Teeth Cleaning",
+                    "slotImage": "teeth_cleaning_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Teeth Cleaning",
+                    "slotImage": "teeth_cleaning_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Teeth Cleaning",
+                    "slotImage": "teeth_cleaning_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Teeth Cleaning",
+                    "slotImage": "teeth_cleaning_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Teeth Cleaning",
+                    "slotImage": "teeth_cleaning_slot_image_url"
+                }
+            ]
+        },
+        {
+            "serviceName": "X-ray Examination",
+            "image": "x_ray_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "X-ray Examination",
+                    "slotImage": "x_ray_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "X-ray Examination",
+                    "slotImage": "x_ray_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "X-ray Examination",
+                    "slotImage": "x_ray_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "X-ray Examination",
+                    "slotImage": "x_ray_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "X-ray Examination",
+                    "slotImage": "x_ray_slot_image_url"
+                }
+            ]
+        },
+        {
+            "serviceName": "Dental Checkup",
+            "image": "dental_checkup_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Dental Checkup",
+                    "slotImage": "dental_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Dental Checkup",
+                    "slotImage": "dental_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Dental Checkup",
+                    "slotImage": "dental_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Dental Checkup",
+                    "slotImage": "dental_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Dental Checkup",
+                    "slotImage": "dental_checkup_slot_image_url"
+                }
+            ]
+        }
+    ],
+    "Sunday": [
+        {
+            "serviceName": "Fillings",
+            "image": "fillings_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Fillings Checkup",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Fillings Checkup",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Fillings Checkup",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Fillings Checkup",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Fillings Checkup",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                }
+            ]
+        },
+        {
+            "serviceName": "Teeth Whitening",
+            "image": "teeth_whitening_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Teeth Whitening slot-1",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Teeth Whitening slot-2",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Teeth Whitening slot-3",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Teeth Whitening slot-4",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Teeth Whitening slot-5",
+                    "slotImage": "fillings_checkup_slot_image_url"
+                }
+            ]
+        }
+    ],
+    "Monday": [
+        {
+            "serviceName": "Root Canal Treatment",
+            "image": "teeth_cleaning_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Root Canal Treatment",
+                    "slotImage": "root_canal_treatment_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Root Canal Treatment",
+                    "slotImage": "root_canal_treatment_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Root Canal Treatment",
+                    "slotImage": "root_canal_treatment_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Root Canal Treatment",
+                    "slotImage": "root_canal_treatment_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Root Canal Treatment",
+                    "slotImage": "root_canal_treatment_image_url"
+                }
+            ]
+        },
+        {
+            "serviceName": "Orthodontic Consultation",
+            "image": "x_ray_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Orthodontic Consultation",
+                    "slotImage": "orthodontic_consultation_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Orthodontic Consultation",
+                    "slotImage": "orthodontic_consultation_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Orthodontic Consultation",
+                    "slotImage": "orthodontic_consultation_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Orthodontic Consultation",
+                    "slotImage": "orthodontic_consultation_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Orthodontic Consultation",
+                    "slotImage": "orthodontic_consultation_image_url"
+                }
+            ]
+        },
+        {
+            "serviceName": "Dental Implant",
+            "image": "dental_implant_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Dental Implant",
+                    "slotImage": "dental_implant_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Dental Implant",
+                    "slotImage": "dental_implant_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Dental Implant",
+                    "slotImage": "dental_implant_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Dental Implant",
+                    "slotImage": "dental_implant_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Dental Implant",
+                    "slotImage": "dental_implant_slot_image_url"
+                }
+            ]
+        }
+    ],
+    "Tuesday": [
+        {
+            "serviceName": "Tooth Extraction",
+            "image": "tooth_extraction_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Tooth Extraction",
+                    "slotImage": "tooth_extraction_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Tooth Extraction",
+                    "slotImage": "tooth_extraction_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Tooth Extraction",
+                    "slotImage": "tooth_extraction_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Tooth Extraction",
+                    "slotImage": "tooth_extraction_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Tooth Extraction",
+                    "slotImage": "tooth_extraction_slot_image_url"
+                }
+            ]
+        },
+        {
+            "serviceName": "Denture Fitting",
+            "image": "dental_fitting_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Denture Fitting slot-1",
+                    "slotImage": "denture_fitting_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Denture Fitting slot-2",
+                    "slotImage": "denture_fitting_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Denture Fitting slot-3",
+                    "slotImage": "denture_fitting_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Denture Fitting slot-4",
+                    "slotImage": "denture_fitting_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Denture Fitting slot-5",
+                    "slotImage": "denture_fitting_slot_image_url"
+                }
+            ]
+        }
+    ],
+    "Wednesday": [
+        {
+            "serviceName": "Gum Disease Treatment",
+            "image": "gum_disease_treatment_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Gum Disease Treatment",
+                    "slotImage": "gum_disease_treatment_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Gum Disease Treatment",
+                    "slotImage": "gum_disease_treatment_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Gum Disease Treatment",
+                    "slotImage": "gum_disease_treatment_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Gum Disease Treatment",
+                    "slotImage": "gum_disease_treatment_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Gum Disease Treatment",
+                    "slotImage": "gum_disease_treatment_slot_image_url"
+                }
+            ]
+        },
+        {
+            "serviceName": "Oral Surgery",
+            "image": "oral_surgery_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Oral Surgery slot-1",
+                    "slotImage": "oral_surgery_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Oral Surgery slot-2",
+                    "slotImage": "oral_surgery_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Oral Surgery slot-3",
+                    "slotImage": "oral_surgery_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Oral Surgery slot-4",
+                    "slotImage": "oral_surgery_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Oral Surgery slot-5",
+                    "slotImage": "oral_surgery_slot_image_url"
+                }
+            ]
+        }
+    ],
+    "Thursday": [
+        {
+            "serviceName": "Crown Placement",
+            "image": "crown_placement_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Crown Placement",
+                    "slotImage": "crown_placement_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Crown Placement",
+                    "slotImage": "crown_placement_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Crown Placement",
+                    "slotImage": "crown_placement_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Crown Placement",
+                    "slotImage": "crown_placement_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Crown Placement",
+                    "slotImage": "crown_placement_slot_image_url"
+                }
+            ]
+        },
+        {
+            "serviceName": "Pediatric Dentistry",
+            "image": "pediatric_dentistry_image_url",
+            "timeSlots": [
+                {
+                    "timeDuration": "5:00 PM - 6:00 PM",
+                    "slotService": "Pediatric Dentistry slot-1",
+                    "slotImage": "pediatric_dentistry_slot_image_url"
+                },
+                {
+                    "timeDuration": "6:00 PM - 7:00 PM",
+                    "slotService": "Pediatric Dentistry slot-2",
+                    "slotImage": "pediatric_dentistry_slot_image_url"
+                },
+                {
+                    "timeDuration": "7:00 PM - 8:00 PM",
+                    "slotService": "Pediatric Dentistry slot-3",
+                    "slotImage": "pediatric_dentistry_slot_image_url"
+                },
+                {
+                    "timeDuration": "8:00 PM - 9:00 PM",
+                    "slotService": "Pediatric Dentistry slot-4",
+                    "slotImage": "pediatric_dentistry_slot_image_url"
+                },
+                {
+                    "timeDuration": "9:00 PM - 10:00 PM",
+                    "slotService": "Pediatric Dentistry slot-5",
+                    "slotImage": "pediatric_dentistry_slot_image_url"
+                }
+            ]
+        }
+    ],
+    "Friday": []
+}
