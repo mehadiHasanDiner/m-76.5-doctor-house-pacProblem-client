@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const Appointment = () => {
   const [appointments, setAppointments] = useState([]);
-  const [selectedDate, setSelectedDate] = useState(null);
+  const [selectedDate, setSelectedDate] = useState(new Date());
 
   useEffect(() => {
     fetch("services.json")
@@ -15,18 +15,28 @@ const Appointment = () => {
       });
   }, []);
 
-  const saturday = appointments?.Saturday;
-  const sunday = appointments?.Sunday;
-  const monday = appointments?.Monday;
-  const tuesday = appointments?.Tuesday;
-  const wednesday = appointments?.Wednesday;
-  const thrusday = appointments?.Thursday;
-  const friday = appointments?.Friday;
+  // const saturday = appointments?.Saturday;
+  // const sunday = appointments?.Sunday;
+  // const monday = appointments?.Monday;
+  // const tuesday = appointments?.Tuesday;
+  // const wednesday = appointments?.Wednesday;
+  // const thrusday = appointments?.Thursday;
+  // const friday = appointments?.Friday;
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
-    console.log(date);
+    const options = {
+      weekday: "long",
+      timeZone: "Asia/Dhaka",
+      localeMatcher: "best fit",
+      // timeZoneName: "short",
+    };
+    const dayName = selectedDate.toLocaleDateString("en-US", options);
+
+    // const appointmentDays = appointments.${dayName};
+    return dayName;
   };
+  console.log(appointments);
 
   return (
     <div className="text-center my-4">
